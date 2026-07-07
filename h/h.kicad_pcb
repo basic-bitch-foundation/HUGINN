@@ -261,7 +261,7 @@
       (net 11 "EP_RST") (pinfunction "Pin_7") (pintype "passive") (tstamp 238c85f1-b71e-4a19-9545-efe573afdfb2))
     (pad "8" thru_hole oval (at 0 17.78 90) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask)
       (net 12 "EP_BUSY") (pinfunction "Pin_8") (pintype "passive") (tstamp 8df4d4c2-8e34-4411-bda4-e404a493a846))
-    (model "${KICAD6_3DMODEL_DIR}/Connector_PinHeader_2.54mm.3dshapes/PinHeader_1x08_P2.54mm_Vertical.wrl"
+    (model "${KICAD6_3DMODEL_DIR}/Connector_PinHeader_2.54mm.3dshapes/PinHeader_1x08_P2.54mm_Vertical.wrl" hide
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -1373,7 +1373,7 @@
     (pad "4" thru_hole oval (at 0 -7.62 90) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask) (tstamp 3dd18bf0-00ef-4a75-a7e5-3f2001129a47))
     (pad "5" thru_hole oval (at 0 -10.16 90) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask) (tstamp def782d4-9605-434d-b794-ca3d9165530a))
     (pad "6" thru_hole oval (at 0 -12.7 90) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask) (tstamp 93d471af-c2ad-4f9c-bc57-01efb8f90a59))
-    (model "${KICAD6_3DMODEL_DIR}/Connector_PinSocket_2.54mm.3dshapes/PinSocket_1x06_P2.54mm_Vertical.wrl"
+    (model "${KICAD6_3DMODEL_DIR}/Connector_PinSocket_2.54mm.3dshapes/PinSocket_1x06_P2.54mm_Vertical.wrl" hide
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
