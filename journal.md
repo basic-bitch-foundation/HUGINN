@@ -245,5 +245,9 @@ Then:
 Then, Its time to make a back panel for Encosure
 so I first sketch out and then pocket out a rim inisde of wall of enclosure ant hen sketh it out and pad it to full panel for sketch.
 
-For support and fixing panel I use the same slap hole whcih ws tuse to clampt the pch and scrren so a single scre w will hold the panel, display and pcb
- then I colored all the feaces and finied it.
+For support and fixing panel I use the same slab hole that'll use to clamp the pcb and scrren so a single screw will hold the panel, display and pcb
+ then I colored all the feaces .
+# Lapse- cititing
+
+
+
