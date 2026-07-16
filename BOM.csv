@@ -1,0 +1,38 @@
+Reference,Qty,Category,Component,Value,Manufacturer,Part Number / Model,Package / Footprint,Description,Supplier Link,Price (USD),Price (INR),Notes
+U1,1,Microcontrollers,ESP32-S3 Dev Board,N8R8,Espressif,ESP32-S3-DEVKITC-1-N8R8,DEVKITC-1U (castellated module),ESP32-S3 Development Board (8MB Flash / 8MB PSRAM),here,,1304.1,Used as system module - not a bare SoC
+LoRa1,1,RF Modules,LoRa Transceiver Module,433MHz,Ai-Thinker,RA-02 (SX1278),SMD Module - 16 pin (2x8 top/bottom),433 MHz LoRa Transceiver Module (SX1278-based),here,,301,Confirm 433 MHz vs 868/915 MHz variant needed for your region
+VR1,1,Power Management,LDO Voltage Regulator,3.3V,Diodes Inc.,AP2112K-3.3,SOT-23-5,3.3V 600mA Low Dropout Voltage Regulator,here,,26,
+U2,1,Power Management,LiPo Charge Controller IC,-,Microchip,MCP73831T-2ACI/OT,SOT-23-5,Single-Cell Li-Po/Li-Ion Linear Charge Management IC,here,,71.83,
+J1,1,Connectors,USB Type-C Receptacle,-,,,SMD Type-C 16-pin,USB Type-C Power/Data Connector (USB 2.0),here,,34,different from footprint
+BT1,1,Connectors,Battery Connector,2-pin,JST,PH-2 (S2B-PH-K),JST-PH 2.00mm 2-pin Horizontal,JST-PH 2-Pin Battery Connector,here,,8,Can skip very optional
+EP1,1,Connectors,E-Ink Display Connector,8-pin,Generic,PinHeader-1x08-2.54mm,2.54mm Pitch 1x08 Vertical Header,"2.13"" SPI E-Ink Display Header (8-pin)",here,,1478,
+PSW1,1,Switches,Momentary switch,Power,Generic,,SMD 2-pin,,here,,39,
+SW1,1,Switches,Tactile Push Button,Left,Generic,Tactile SMD 2-pin,SolderPad 5x5mm SMD,Tactile Push Button (Left / Navigation),here,,1.05,
+SW2,1,Switches,Tactile Push Button,Up,Generic,Tactile SMD 2-pin,SolderPad 5x5mm SMD,Tactile Push Button (Up / Navigation),"""",,,
+SW3,1,Switches,Tactile Push Button,Send,Generic,Tactile SMD 2-pin,SolderPad 5x5mm SMD,Tactile Push Button (Center / Select),"""",,,
+SW4,1,Switches,Tactile Push Button,Down,Generic,Tactile SMD 2-pin,SolderPad 5x5mm SMD,Tactile Push Button (Down / Navigation),"""",,,
+SW5,1,Switches,Tactile Push Button,Right,Generic,Tactile SMD 2-pin,SolderPad 5x5mm SMD,Momentary Tactile Push Button (Right / Navigation),here,,,
+L1,1,LEDs,Status LED,diode led,Generic,LED-0805,SolderPad 5x5mm SMD,Status Indicator LED,,,,
+L2,1,LEDs,Charge Status LED,"""",Generic,LED-0805,SolderPad 5x5mm SMD,Battery Charge Status LED,,,,
+Q1,1,Transistors,N-Channel MOSFET,-,Generic,BSS138,SOT-23,N-Channel MOSFET (Motor Driver Switch),here,,2.02,
+D1,1,Diodes,Flyback/Protection Diode,-,Generic,1N4148 or equiv.,SMA,Diode (Motor Flyback Protection),,,,
+R1,1,Resistors,Resistor,100?,Generic,RC-Series,Axial THT (DIN0207),100? Resistor (LoRa Reset Gate),,,,
+R2,1,Resistors,Resistor,1k?,Generic,RC-Series,Axial THT (DIN0207),1k? Resistor (Status LED Current Limit),,,,regional prices and availiblity varries
+R3,1,Resistors,Resistor,2k?,Generic,RC-Series,Axial THT (DIN0207),2k? Resistor (Charge IC PROG - Sets Charge Current),,,,regional prices and availiblity varries
+R4,1,Resistors,Resistor,10k?,Generic,RC-Series,Axial THT (DIN0207),10k? Resistor (MOSFET Gate Pulldown),,,,regional prices and availiblity varries
+R5,1,Resistors,Resistor,5.1k?,Generic,RC-Series,Axial THT (DIN0207),5.1k? Resistor (USB-C CC1 Pull-down),,,,regional prices and availiblity varries
+R6,1,Resistors,Resistor,1k?,Generic,RC-Series,Axial THT (DIN0207),1k? Resistor (Charge LED Current Limit),,,,
+R7,1,Resistors,Resistor,5.1k?,Generic,RC-Series,Axial THT (DIN0207),5.1k? Resistor (USB-C CC2 Pull-down),,,,
+C1,1,Capacitors,Capacitor,10uF,Generic,C-Series,0805 SMD,10uF Ceramic Capacitor (E-Ink Supply Decoupling),,,,
+C2,1,Capacitors,Capacitor,100uF,Generic,CP-Elec,5x5.3mm Electrolytic,100uF Electrolytic Capacitor (E-Ink Bulk Decoupling),,,,
+C3,1,Capacitors,Capacitor,47uF,Generic,C-Series,1206 SMD,47uF Capacitor (ESP32 Supply Decoupling),,,,
+C4,1,Capacitors,Capacitor,100nF,Generic,C-Disc,THT Disc 5mm,100nF Capacitor (ESP32 Supply Decoupling),,,,
+C5,1,Capacitors,Capacitor,10uF,Generic,C-Series,0805 SMD,10uF Capacitor (LoRa Module Supply Decoupling),,,,
+C6,1,Capacitors,Capacitor,100uF,Generic,CP-Elec,5x5.3mm Electrolytic,100uF Electrolytic Capacitor (LoRa Module Bulk Decoupling),,,,
+C7,1,Capacitors,Capacitor,10uF,Generic,C-Series,0805 SMD,10uF Capacitor (LDO Input Decoupling),,,,
+C8,1,Capacitors,Capacitor,10uF,Generic,C-Series,0805 SMD,10uF Capacitor (LDO Output Decoupling),,,,
+C9,1,Capacitors,Capacitor,4.7uF,Generic,C-Series,0805 SMD,4.7uF Capacitor (Charge IC VDD Decoupling),,,,
+C10,1,Capacitors,Capacitor,4.7uF,Generic,C-Series,0805 SMD,4.7uF Capacitor (Charge IC VBAT Decoupling),,,,""""
+M1,1,Motors,Coin Vibration Motor,-,Generic,Coin Vibe 10mm,SolderPad 5x5mm SMD,Coin Vibration Motor (Haptic Feedback),here,,73,
+,,,,,,,,,,,,
+,,,,,,,,,,TOTAL = ,~3500,

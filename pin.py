@@ -18,7 +18,11 @@ sw_up = 45
 sw_c = 48
 sw_dw = 47
 sw_r = 21
-
+sts_led = 43
 mtr_gt = 6
 
-sts_led = 43
+fsfmnjgs
+oprtyh
+
+n4366538
+566
