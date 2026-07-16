@@ -52,6 +52,10 @@ the click the send button when reciver will reciver get it wil automaticall conv
 . This save the bytes of daya is trasmitting and saving time 
 
 
+# AI- decl.
+I use like very little < 10% AI for code. 
+
+
 # Outro
 Made for Hackclub <3 by Saksham (A.K.A bbb)
 Feel free to contribute :heart:
