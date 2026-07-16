@@ -12,7 +12,14 @@ Download All files(.stp) from Enclosure printable folder and print 'em
  > It uses M2 screw everywhere
  > For part link please download .odf not .csv
  > In assembly u may see the MCU as colliding with PCB dw! it just cz I can't remove the header pins. :lollll:
-
+![alt text](PCB/h.svg)
+![alt text](<images/Screenshot from 2026-07-17 01-17-58.png>)
+![alt text](<images/Screenshot from 2026-07-17 01-19-10.png>)
+![alt text](<images/Screenshot from 2026-07-17 01-19-48.png>)
+![alt text](<images/Screenshot from 2026-07-17 01-20-45.png>)
+![alt text](<images/Screenshot from 2026-07-17 01-21-27.png>)
+![alt text](<images/Screenshot from 2026-07-17 01-22-03.png>)
+![alt text](<images/Screenshot from 2026-07-17 01-23-03.png>)
  ### Instructions
  First comes the MCU U hve to castellated solder it on top of the board or can use very low height header pins
 
