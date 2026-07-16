@@ -1,7 +1,7 @@
 Title: Huginn
 Aurthor: Saksham 
 Description: It is a LoRa (Long-Range) off grid Pager, people can communticate in remote areas. Named upon messenger crow of Odin.
-Total Time Elpased: 
+**Total Time Elapsed: 43 Hours 34 mins** without code 
 
 >Note: SO Basically I didn't have exact duration for every sesssion, I have dates frame , duration and Lapse for it.
 # June 7 - June 26 (7 sessions & 3 Lapses)
