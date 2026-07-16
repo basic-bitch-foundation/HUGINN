@@ -11,6 +11,7 @@ It have BOM, Custom PCB, 3D printed Enclosure, buttons and suport.
 Download All files(.stp) from Enclosure printable folder and print 'em
  > It uses M2 screw everywhere
  > For part link please download .odf not .csv
+ > In assembly u may see the MCU as colliding with PCB dw! it just cz I can't remove the header pins. :lollll:
 
  ### Instructions
  First comes the MCU U hve to castellated solder it on top of the board or can use very low height header pins
